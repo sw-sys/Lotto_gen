@@ -1,6 +1,13 @@
 from tkinter import *
 from random import sample
 
+# script file modifier to include image
+def resource_path(relative_path):
+    absolute_path = os.path.abspath(__file__)
+    root_path = os.path.dirname(absolute_path)
+    base_path = getattr(sys, '_MEIPASS', root_path)
+    return os.path.join(base_path, relative_path)
+
 # create objects - window and logo
 window = Tk()
 img = PhotoImage(file = 'lotto.gif')

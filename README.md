@@ -1,5 +1,6 @@
-# Using tkinter 
+# Creaing a number generation program using tkinter 
 A learning opportunity to create an interface and a Lotto number generator
+
 Final task from 'Coding for Beginners' (Mike McGrath)
 
 ### To do: 
@@ -8,4 +9,4 @@ Final task from 'Coding for Beginners' (Mike McGrath)
 - [x] Create buttons with padding
 - [x] Add static text & initial properties in number labels
 - [x] Add functionality - number generation
-- [ ] Deploy application with pyinstaller
+- [x] Deploy application with pyinstaller
