@@ -7,4 +7,5 @@ Final task from 'Coding for Beginners' (Mike McGrath)
 - [x] Create grid layout with labels & padding
 - [x] Create buttons with padding
 - [x] Add static text & initial properties in number labels
-- [ ] Add functionality - number generation
+- [x] Add functionality - number generation
+- [ ] Deploy application with pyinstaller
