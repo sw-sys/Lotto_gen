@@ -1,7 +1,8 @@
 # Creaing a number generation program using tkinter 
-A learning opportunity to create an interface and a Lotto number generator
+A learning opportunity to create an interface and a Lotto number generator (Final task from 'Coding for Beginners' by Mike McGrath)
 
-Final task from 'Coding for Beginners' (Mike McGrath)
+Number_generator.py is original code
+Executable is in the 'dist' folder
 
 ### To do: 
 - [x] Create objects - window and logo
