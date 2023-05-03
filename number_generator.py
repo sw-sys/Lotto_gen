@@ -1,4 +1,5 @@
 from tkinter import *
+from random import sample
 
 # create objects - window and logo
 window = Tk()
@@ -43,6 +44,35 @@ label4.configure(text='...')
 label5.configure(text='...')
 label6.configure(text='...')
 resBtn.configure(state = DISABLED)
+
+# dynamic properties
+
+    # generates numbers
+def pick():
+    nums = sample(range(1, 60), 6)
+    label1.configure(text = nums[0])
+    label2.configure(text = nums[1])
+    label3.configure(text = nums[2])
+    label4.configure(text = nums[3])
+    label5.configure(text = nums[4])
+    label6.configure(text = nums[5])
+    getBtn.configure(state = DISABLED)
+    resBtn.configure(state = NORMAL)
+
+    # revert numbers back to ellipses
+def reset():
+    label1.configure(text='...')
+    label2.configure(text='...')
+    label3.configure(text='...')
+    label4.configure(text='...')
+    label5.configure(text='...')
+    label6.configure(text='...')
+    getBtn.configure(state = NORMAL)
+    resBtn.configure(state = DISABLED)
+
+    # assign functions to the buttons
+getBtn.configure(command = pick)
+resBtn.configure(command = reset)
 
 # loop sustains the window
 window.mainloop()
