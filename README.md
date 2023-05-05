@@ -12,4 +12,3 @@ Executable is in the 'dist' folder
 - [x] Add functionality - number generation
 - [x] Deploy application with pyinstaller
 - [x] Add functionality - number generation
-
