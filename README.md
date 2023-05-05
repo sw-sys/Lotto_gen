@@ -9,9 +9,7 @@ Executable is in the 'dist' folder
 - [x] Create grid layout with labels & padding
 - [x] Create buttons with padding
 - [x] Add static text & initial properties in number labels
-<<<<<<< HEAD
 - [x] Add functionality - number generation
 - [x] Deploy application with pyinstaller
-=======
-- [ ] Add functionality - number generation
->>>>>>> parent of 7bc6998 (update progress)
+- [x] Add functionality - number generation
+
